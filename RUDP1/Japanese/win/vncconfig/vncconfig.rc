@@ -420,14 +420,14 @@ BEGIN
     BEGIN
         BLOCK "080904b0"
         BEGIN
-            VALUE "CompanyName", "Thin Telework"
+            VALUE "CompanyName", "Thin Telework Open Source Version"
             VALUE "FileDescription", "User-Mode Remote Desktop Server Config Tool"
             VALUE "FileVersion", "4.1.2"
             VALUE "InternalName", "urdpconfig"
             VALUE "LegalCopyright", "Copyright (c) 2020 NTT-East and IPA Special Project. Copyright RealVNC Ltd. 2002-2019."
             VALUE "LegalTrademarks", ""
             VALUE "OriginalFilename", "urdpconfig.exe"
-            VALUE "ProductName", "Thin Telework"
+            VALUE "ProductName", "Thin Telework Open Source Version"
             VALUE "ProductVersion", "4.1.2"
         END
     END

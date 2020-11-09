@@ -753,7 +753,7 @@ void ViewerWindow::showFileTransferDialog()
 {
 	if (g_no_fileshare)
 	{
-		MessageBoxW(m_hWnd, L"ファイル転送機能は禁止されています。", L"Thin Telework Client", MB_ICONINFORMATION | MB_OK);
+		MessageBoxW(m_hWnd, L"ファイル転送機能は禁止されています。", L"Thin Telework Client Open Source Version", MB_ICONINFORMATION | MB_OK);
 		return;
 	}
 

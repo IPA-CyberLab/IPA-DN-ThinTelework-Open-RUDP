@@ -36,13 +36,13 @@ using namespace network;
 static LogWriter vlog("VNCServerWin32");
 
 
-const TCHAR* winvnc::VNCServerWin32::RegConfigPath = _T("Software\\Thin Telework\\URDP Server");
+const TCHAR* winvnc::VNCServerWin32::RegConfigPath = _T("Software\\Thin Telework Open Source Version\\URDP Server");
 
 
 static IntParameter http_port("HTTPPortNumber",
   "TCP/IP port on which the server will serve the Java applet VNC Viewer ", 0);
 static IntParameter port_number("PortNumber",
-  "TCP/IP port on which the server will accept connections", 3457);
+  "TCP/IP port on which the server will accept connections", 3458);
 static StringParameter hosts("Hosts",
   "Filter describing which hosts are allowed access to this server", "+0.0.0.0/0.0.0.0");
 static BoolParameter localHost("LocalHost",

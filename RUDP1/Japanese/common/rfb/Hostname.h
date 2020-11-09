@@ -25,7 +25,7 @@
 
 namespace rfb {
 
-  static void getHostAndPort(const char* hi, char** host, int* port, int basePort=3457) {
+  static void getHostAndPort(const char* hi, char** host, int* port, int basePort=3459) {
     CharArray portBuf;
     CharArray hostBuf;
     if (hi[0] == '[') {
