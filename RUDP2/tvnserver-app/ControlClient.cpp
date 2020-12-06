@@ -412,7 +412,7 @@ void ControlClient::connectToTcpDispatcher()
 
   // Parse host and port from connection string.
   AnsiStringStorage connectStringAnsi(&connectString);
-  HostPath hp(connectStringAnsi.getString(), 3458);
+  HostPath hp(connectStringAnsi.getString(), 3459);
   if (!hp.isValid()) {
     return;
   }

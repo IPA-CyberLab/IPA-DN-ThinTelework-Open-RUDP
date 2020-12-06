@@ -30,7 +30,7 @@
 class HostPath {
 public:
   HostPath();
-  HostPath(const char *path, int defaultPort = 3458);
+  HostPath(const char *path, int defaultPort = 3459);
   virtual ~HostPath();
 
   bool set(const char *path);
