@@ -301,7 +301,7 @@ void CConnOptions::writeToFile(const char* filename) {
 
 void CConnOptions::writeDefaults() {
   RegKey key;
-  key.createKey(HKEY_CURRENT_USER, _T("Software\\Thin Telework Open Source Version\\URDP Client\\"));
+  key.createKey(HKEY_CURRENT_USER, _T("Software\\Thin Telework Private Version\\URDP Client\\"));
   key.setBool(_T("UseLocalCursor"), useLocalCursor);
   key.setBool(_T("UseDesktopResize"), useDesktopResize);
   key.setBool(_T("FullScreen"), fullScreen);

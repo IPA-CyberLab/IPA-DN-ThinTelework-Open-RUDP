@@ -27,14 +27,14 @@
 const TCHAR NamingDefs::MIRROR_DRIVER_MESSAGE_WINDOW_CLASS_NAME[] =
   _T("MIRROR_DRIVER_MESSAGE_WINDOW_CLASS_NAME");
 
-const TCHAR ProductNames::PRODUCT_NAME[] = _T("Thin Telework Open Source Version");
-const TCHAR ProductNames::SERVER_PRODUCT_NAME[] = _T("Thin Telework Server Usermode Open Source Version");
+const TCHAR ProductNames::PRODUCT_NAME[] = _T("Thin Telework Private Version");
+const TCHAR ProductNames::SERVER_PRODUCT_NAME[] = _T("Thin Telework Server Usermode Private Version");
 
-const TCHAR RegistryPaths::SERVER_PATH[] = _T("Software\\Thin Telework Open Source Version\\URDP2\\Server");
+const TCHAR RegistryPaths::SERVER_PATH[] = _T("Software\\Thin Telework Private Version\\URDP2\\Server");
 const TCHAR RegistryPaths::SERVER_REVERSE_CONN_HISTORY_PATH[] =
-  _T("Software\\Thin Telework Open Source Version\\URDP2\\Control\\ReverseConnectionHistory");
+  _T("Software\\Thin Telework Private Version\\URDP2\\Control\\ReverseConnectionHistory");
 const TCHAR RegistryPaths::DISPATCHER_CONN_HISTORY_PATH[] =
-  _T("Software\\Thin Telework Open Source Version\\URDP2\\Control\\DispatcherConnectionHistory");
+  _T("Software\\Thin Telework Private Version\\URDP2\\Control\\DispatcherConnectionHistory");
 
 const TCHAR WindowNames::WINDOW_CLASS_NAME[] =
   _T("TvnWindowsApplicationClass");
@@ -52,7 +52,7 @@ const TCHAR ClipboardNames::CLIPBOARD_WIN_CLASS_NAME[] =
 const TCHAR ServiceNames::TVNCONTROL_START_REGISTRY_ENTRY_NAME[] =
   _T("URDP2_tvncontrol");
 const TCHAR ServiceNames::SERVICE_NAME[] = _T("URDP2_tvnserver");
-const TCHAR ServiceNames::SERVICE_NAME_TO_DISPLAY[] = _T("Thin Telework Server Open Source Version RUDP2");
+const TCHAR ServiceNames::SERVICE_NAME_TO_DISPLAY[] = _T("Thin Telework Server Private Version RUDP2");
 
 const TCHAR ServerApplicationNames::SERVER_INSTANCE_MUTEX_NAME[] =
   _T("URDP2_tvnserverApplication");

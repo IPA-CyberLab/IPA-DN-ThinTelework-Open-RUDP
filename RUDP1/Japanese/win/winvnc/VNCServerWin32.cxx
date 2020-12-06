@@ -36,7 +36,7 @@ using namespace network;
 static LogWriter vlog("VNCServerWin32");
 
 
-const TCHAR* winvnc::VNCServerWin32::RegConfigPath = _T("Software\\Thin Telework Open Source Version\\URDP Server");
+const TCHAR* winvnc::VNCServerWin32::RegConfigPath = _T("Software\\Thin Telework Private Version\\URDP Server");
 
 
 static IntParameter http_port("HTTPPortNumber",
